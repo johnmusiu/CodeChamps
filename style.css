@@ -1,0 +1,42 @@
+body{
+    background-image: url('image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+p{
+    color: rsl(134, 50%, 50%);
+}
+
+#love{
+    color: blue;
+}
+
+.tuna{
+    color: rgba(95, 46, 128, 0.808);
+    font-size: 20px;
+}
+
+h2, h3, h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: 60%;
+    align-content: center;
+    position: relative;
+    background-color: white;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid;
+    padding: 10px;
+}
