@@ -1,5 +1,5 @@
 body{
-    background-image: url('image.jpg');
+    background-image: url('/blog/images/image.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -39,4 +39,17 @@ table{
 td, th{
     border: 1px solid;
     padding: 10px;
+}
+
+thead{
+    background-color: greenyellow;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
 }
