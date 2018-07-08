@@ -25,8 +25,6 @@ body{
 
 .nav ul li{
     float: right;
-    border: 1px solid black;
-    border-radius: 5px;
     margin: 3px;
 }
 
@@ -67,4 +65,19 @@ body{
 table{
     margin-left: 40%;
     padding: 5px;
+}
+
+.active{
+    color: rgb(194, 26, 171);
+    background-color: bisque;
+}
+
+.nav ul li a:hover{
+    color: red;
+    background-color: blue;
+}
+
+.nav ul li a:active{
+    color: black;
+    background-color: white;
 }
