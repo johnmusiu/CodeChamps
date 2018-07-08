@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 85%;
     margin-left: 7.5%
 }
@@ -51,20 +51,20 @@ body{
 }
 
 .career, .name{
-    width: 30%;
     font-family: fantasy;
     font-size: 1.5em;
     padding: 5px;
     margin-left: 40%;
 }
 
-.name{
-    color: brown;
-}
-
 .career{
     color: chocolate;
 }
 .main{
+    padding: 5px;
+}
+
+table{
+    margin-left: 40%;
     padding: 5px;
 }
