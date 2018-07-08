@@ -1,11 +1,4 @@
-html{
-    background-image: url("../images/image.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 body{
-    background-color: rgba(255, 255, 255, 0.6);
     width: 85%;
     margin-left: 7.5%
 }
@@ -20,11 +13,10 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #333; */
 }
 
 .nav ul li{
-    float: right;
+    float: left;
     border: 1px solid black;
     border-radius: 5px;
     margin: 3px;
@@ -43,19 +35,18 @@ body{
 }
 
 .profile img{
-    margin-left: 10%;
     float: left;
     border: 6px solid white;
     border-radius: 20px;
     padding: 15px;
 }
 
-.career, .name{
+.details{
     width: 30%;
     font-family: fantasy;
     font-size: 1.5em;
     padding: 5px;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 
 .name{
@@ -67,4 +58,34 @@ body{
 }
 .main{
     padding: 5px;
+}
+table{
+    margin: 7px;
+}
+
+
+td{
+    border-bottom: 1px solid grey;
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+.active{
+    color: green;
+    background-color: bisque;
+}
+
+.nav ul li a:hover{
+    color: tomato;
+    background-color: black;
+}
+
+.nav ul li a:active{
+    color: greenyellow;
+    background-color: green;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
 }
