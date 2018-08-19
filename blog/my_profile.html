@@ -10,14 +10,13 @@
 <body>
     <div class="nav">
         <ul>
+            <li><a href="#contact-me">Talk to Me</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="home.html">Blog</a></li>
             <li class="active"><a href="#">Profile</a></li>
         </ul>
     </div>
-    <div>
-
-    </div>
+   
     <div class="profile">
         <img src="images/photo5778468967797599607.jpg" alt="jmusiu" width="25%">     
         <table class="details">
@@ -32,8 +31,66 @@
             </tbody>
         </table>
     </div>
+
     <div class="main">
-        <p>Other details will go here...</p>
+        <div class="lists flex-container">
+            <div class="likes">
+                <h3>Likes</h3>
+                <ol>
+                    <li>Hiking</li>
+                    <li>Camping &amp; Bonfire activities</li>
+                    <li>Chatting while chilling</li>
+                    <li>Joking</li>
+                </ol>
+            </div>
+            <div class="likes">
+                <h3>Favourite Dishes</h3>
+                <ol>
+                    <li>Pilau</li>
+                    <li>Nyama Choma</li>
+                    <li>Chicken</li>
+                    <li>Githeri(green maize)</li>
+                </ol>
+            </div>
+            <div class="likes">
+                <h3>Destinations of Interest</h3>
+                <ol>
+                    <li>Miami</li>
+                    <li>Silicon Valley</li>
+                    <li>Kingstone - Jamaica</li>
+                    <li>Dubai</li>
+                    <li>Liverpoop</li>
+                    <li>Hawaii</li>
+                    <li>Zanzibar</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <h3>Please fill out the quick form and we will be in touch with lightning speed.</h3>
+        
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="type">Type of message</label>
+                <select id="type" name="type">
+                <option value="chat">Chat</option>
+                <option value="comment">Comment</option>
+                <option value="information">Information</option>
+                <option value="question">Question</option>
+                <option value="request">Request</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>            
+        </div>
     </div>
     
 </body>
